@@ -1,0 +1,38 @@
+0.2 BASE-Release
+
+-----------------------------------------------
+0.3 Core-Update I
+
+Main
+
+#CORE: mapdrawing 2.0: extended functionality allowing colorization
+#CORE: Objectsystem 2.0: ID-System, streamlined saving/loading and creation
+#CORE: clothingsystem 2.0: streamlined properties and handling
+
++ADDED: persistend clothing
++ADDED: persistend player-inventory
++ADDED: message on entity-death
++ADDED: yellow color to fields
++ADDED: ability to abort attack with '0' on targetselection
+*IMPROVED: new text in grabbing-menu
+*IMPROVED: extended messages appearing when no savegame is available when loading / deleting
+*IMPROVED: colorized combat-messages
+
+*CHANGED: clothing damage-factor 1.0 -> 0.7
+*CHANGED: humans now say "I am a ..." instead of "I work as a ..."
+*CHANGED: message: "your [arm] is seriously damaged!" -> "Your [side] arm has become dysfunctional!"
+*CHANGED: message: "no free hand" -> "You have no free hand"
+*CHANGED: messgae: "nothing to grab" -> "There is nothing to grab"
+
+*OPTIMIZED: refresh of map
+*OPTIMIZED: talk-menu
+*OPTIMIZED: fight-menu
+*OPTIMIZED: clothing needs less memory
+
+-FIXED: missing borderline in attack-menu
+-FIXED: cursors remains after looking around
+-FIXED: time is now shown correctly on first frame
+-FIXED: bug in talk-menu which led to crashes or wrong selection
+-FIXED: dead entities reappeared when loading game
+-FIXED: additional space in names after saving
+-FIXED: Corpses are not saved correctly
