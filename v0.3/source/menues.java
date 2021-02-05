@@ -78,7 +78,6 @@ public class menues{
       player = (Player) entities.entities.get(0);
       time = 21600;
       try {
-        /*
         form.spell("You wake up and look slowly around. ", 70);
         TimeUnit.SECONDS.sleep(1);
         form.spell("It seems like you have slept in a field.\n", 70);
@@ -93,7 +92,6 @@ public class menues{
         TimeUnit.SECONDS.sleep(1);
         form.spell("Maybe somebody in the village can help...\n", 70);
         TimeUnit.SECONDS.sleep(4);
-        */
       } catch(Exception e) {}
       real_map = gen.load_map(player.pos[0], player.pos[1]);
       materialmap = gen.load_materialmap(player.pos[0], player.pos[1]);
